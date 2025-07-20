@@ -7,6 +7,13 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
+      <div className="w-full bg-yellow-50 border-y border-yellow-200">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 py-3">
+          <p className="text-center text-yellow-800 font-medium">
+            ⚠️ This experience is optimized for Laptop/iPad viewing only (not compatible with phones)
+          </p>
+        </div>
+      </div>
       <section className="min-h-[90vh] flex items-center">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24">
           <div className="max-w-3xl">
@@ -204,6 +211,13 @@ export default function Home() {
                   Demonstrates transparency and infrastructure capability for both BTC and ETH.
                 </p>
               </div>
+              <Image
+                src="/photos/liveeth.png"
+                alt="Live ETH Transactions Interface"
+                width={800}
+                height={600}
+                className="w-full rounded-lg shadow-lg"
+              />
             </div>
           </div>
         </div>
